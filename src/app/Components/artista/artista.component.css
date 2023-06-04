@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .slider{
+  width: 100vw;
+  height: 65vh;
+  overflow: hidden;
+  margin-top: 100px;
+  margin-bottom: 10vh;
+ }
+ .slider ul{
+    display: flex;
+    animation: cambio 10s infinite alternate linear;
+    width: 400%;
+ }
+ .slider li{
+    width: 100%;
+    list-style: none;
+ }
+ .slider img{
+    width: 100%;
+    height: 100%;
+ }
+ @keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+ 
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+ 
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+ 
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+ }
+ @media only screen and (min-width:320px) and (max-width:768px){
+ .slider, .slider ul, .slider img{
+    height: 100vh;
+ }
+ }
+ 
+ /*Usuario*/
+ 
+ .contenedor{
+   display: row;
+   flex-wrap: wrap;
+   flex-direction: row;
+   margin-top: 20vh;
+   
+   
+ }
+ .icono{
+ margin-right: 25px;
+ border-radius: 15px;
+ margin-left: 60px;
+ z-index: 100;
+ }
+ .Theme{
+   margin-top: 15px;
+   
+   width: 185px;
+   
+   bottom: 180px;
+   left: 480px;
+   flex-wrap: wrap;
+ } 
+ h1{
+    font-family: 'Saira';
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+ }
+ h3{
+    font-family: 'Saira';
+    font-size: 2vh;
+    padding: 5px;
+ }
+ #uwu{
+    margin-top: 80px;
+ }
+ /*Galeria*/
+ *{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+ } 
+ .galeria h1{
+     text-align: center;
+     margin:20px 0 15px 0;
+     font-weight: 300;
+ } 
+ .contenedor-imagenes{
+     display:flex;
+     width: 80%;
+     margin: auto;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     border-radius:3px;
+     margin-bottom: 195px;
+ }
+ .contenedor-imagenes .imagen{
+     width: 32%;
+     position: relative;
+    
+     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+     margin: 5px;
+     
+ }
+ .imagen{
+    margin-bottom:115px;
+ }
+ .imagen img{
+     width: 100%;
+     height:100%;
+     object-fit: cover;
+ }
+ .overlay{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     background:#000000a4;
+     width: 100%;
+     height: 0;
+     overflow: hidden;
+     transition: .5s ease;
+ }
+
+ .overlay h2{
+    font-family: 'Saira';
+    font-size: 24px; 
+    
+    
+    color: #fff;
+     font-weight: 300;
+     font-size:30px;
+     position: absolute;
+     top: 50%;
+     left:50%;
+     text-align: center;
+     transform: translate(-50%, -50%);
+ }
+ .imagen:hover .overlay{
+     height:100%;
+     cursor: pointer;
+ }
+ @media screen and (max-width:1000px){
+     .contenedor-imagenes{
+         width: 95%;
+     }
+ }
+ @media screen and (max-width:700px){
+     .contenedor-imagenes{
+         width: 90%;
+     }
+     .contenedor-imagenes .imagen{
+         width: 48%;
+     }
+ }
+ @media screen and (max-width:450px){
+     h1{
+         font-size:22px;
+     }
+     .contenedor-imagenes{
+         width: 98%;
+     }
+     .contenedor-imagenes .imagen{
+         width: 80%;
+     }
+ }
+ #artist{
+    margin-bottom: 20vh;
+    
+ }

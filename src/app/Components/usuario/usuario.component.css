@@ -1,13 +1,23 @@
-/*BANNER*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#icono{
+    height: 25vw;
+  
 }
-body{
-    font-family: 'Saira', sans-serif;
-    
+img{
+    animation: mo 2.5s linear infinite;
 }
+@keyframes mo{
+    0%{bottom: 0;
+        opacity:.45;
+    }
+    50%{
+        transform: translatey(10px);
+        opacity:.70;
+    }
+    100%{bottom: 100vh;
+        opacity:.45;
+    }
+}
+/*----------------------------------------------------------FONDO----------------------------------------------------------*/
 .contenedor{
     width: 90%;
     max-width: 1200px;
@@ -16,15 +26,14 @@ body{
 .bg_animate{
     height: 43vw;
     width: 100%;
-    margin-bottom: 10vh;
+    margin-bottom: 113px;
     background: linear-gradient(to right, #005C98, #505BDA);
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center; 
+     align-items: center; 
 }
-
 .banner{
     display: flex;
     justify-content: space-between;
@@ -53,13 +62,12 @@ body{
         word-spacing: 0.25em;
         border-radius: 15px;  
 }
-
 .llamanos{
     background:white;
     color:#1A2849;
 }
 /*-----------------------------TEXTO ANIMADO-----------------------------*/
-@keyframes mov {
+@keyframes movimiento {
     0%{
         transform: translateY(0);
     }
@@ -177,101 +185,91 @@ body{
     }
 }
 
-
-/*-----------------------------CONTENIDO-----------------------------*/
-/*sobre nosotros*/
-p{
-    font-family: 'Saira', sans-serif;
+/*----------------------------------------------------------FORMS----------------------------------------------------------*/
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
-h1{
-    font-family: 'Saira', sans-serif;
-}
-#about-t{
-    font-size: 32px;
-    letter-spacing: .7em;
-  word-spacing: 0.25em;
-    
-}
-#about{
-    font-size: 20px;
-}
-#nosotros{
-    width: 50%;
-    height: 576px;
-    padding:  12vh;
-    
-}
-#about-t{
-    margin-bottom: 52px;
-    font-size: 2vw;
-
-    color:#fff;
-    background: #1A2849;
-    padding: 12px 38px;
-    letter-spacing: 0.25em;
-    word-spacing: 0.25em;
-    border-radius: 15px;  
-}
-/**/
-
-#imagencita img{
-    width: 80vh;
-}
-
-/*ESTILOS*/
-.estils{
-    height: 50%;
-    width: 100vw;
-    
-    margin-top: 20vh;
-    position: relative;
+.main{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.472), rgba(255, 255, 255, 0.365));
     overflow: hidden;
-    margin-bottom: 90px;
-}
-#estilos{
-    margin-bottom: 52px;
-    font-size:35px;
-    font-family: 'Saira', sans-serif;
-    letter-spacing: .7em;
-    word-spacing: 0.25em;
-    border-radius: 15px;
-    color:#fff;
-    background: #1A2849;
-    padding: 12px 38px;
-    letter-spacing: 0.25em;
-    word-spacing: 0.25em;
-    margin-left: 30px;
-}
-#estil{
-    padding: 63px;
-}
-/*CONTACTO*/
-#estilo{
-    margin: 46px;
-    font-size: 2vw;
-    font-family: 'Saira', sans-serif;
-    letter-spacing: .7em;
-    word-spacing: 0.25em;
+    padding: .7em;
+    border-radius: 1em;
 
-    width: 60%;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
 
-    color:#fff;
-    background: #006DF8;
-    padding: 12px 38px;
-    letter-spacing: 0.25em;
-    word-spacing: 0.25em;
-    border-radius: 50px;  
+    animation: mostrar 1.5s ease-in-out;
 }
-#icono{
-    height: 3vw;
-    width: 3vw;
+.main__contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 3em .7em;
+    text-align: center;
 }
 
-.card{
-    height: 20vh;
-    width: 20vh;
+.main__form{
+    display: grid;
+    justify-items: center;
+    gap: 1.5em;
 }
-.card :hover{
-    transform: scale(1.15);
-    transition :all 300ms;
+
+.main__input{
+    width: 10%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+}
+
+.main__input--send{
+    background-color: #3D5BCA;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Saira';
+}
+
+.main__title{
+    font-size: 9vh;
+    font-family: 'Saira';
+    font-weight: 900;
+    color: #3D5BCA;
+}
+
+.main__paragraph{
+    margin: .3em 0;
+    font-family: 'Saira';
+}
+
+
+.main__social{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-auto-columns: max-content;
+    gap: 1em;
+}
+
+.main__link{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: .6em 1.5em;
+}
+
+.main__link:hover{
+    background-color: #fff;
+}
+
+.main__icon{
+    width: 30px;
+    height: 30px;
 }

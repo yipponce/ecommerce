@@ -2,9 +2,11 @@
 a:hover{
     color:  #484848;
     text-decoration:none;
+    
   }
   a{
     text-decoration:none;
+    font-family: 'Saira';
   }
  /*quitar margenes del header*/
   .row{
@@ -26,4 +28,7 @@ a:hover{
     padding-bottom: 0px;
     object-fit: cover;
     object-position: center right;
+}
+#logo{
+  height: 50px;
 }

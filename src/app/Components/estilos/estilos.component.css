@@ -1,0 +1,115 @@
+ #e {
+  margin-top: 191px;
+ }
+  /*Columnas*/
+  .Columnas img{
+    width: 25vw;
+    height: 25vw;
+    padding-left: 0px;
+    padding-right: 40px;
+    margin-bottom: 35px;
+  }
+  .aaa{
+    size-adjust: 100vh;
+  }
+  #tarjetitas{
+    padding:20px;
+    align-items:center;
+  }
+  #estilos{
+    color:#fff;
+    font-family: 'Saira';
+        font-size: 4vw;
+        text-decoration: none;
+        display: inline-block;
+        background: #1A2849;
+        padding: 12px 38px;
+        letter-spacing: 0.25em;
+        word-spacing: 0.25em;
+        border-radius: 15px; 
+  }
+  h2{
+    font-size: 7vh;
+    font-family: 'Saira', bold;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    margin-bottom: 127px;
+  }
+  /*-------------------------TARJETAS-------------------------*/
+  .card {
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    margin: 90px;
+    top: 20px;
+    column-count: 3;
+  }
+  a{
+    text-decoration: none;
+  }
+  .card .face {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    backface-visibility:hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+  } 
+  .card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+  }
+  .card .front img {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+  }  
+  .card.front h3{
+    position: absolute;
+    bottom: 0;
+    width: 25vw;
+    height: 25vw;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-family: 'Saira';
+  }
+  .card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgba(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+  }
+  .card .back .link{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+  } 
+  .card .back .link a{
+  color: #f3f3f3;
+  font-family: 'Saira';
+  }
+  .card .back h3{
+  font-size: 4vw;
+  font-family: 'Saira';
+ 
+  }
+  .card .back p {
+  letter-spacing: 1px;
+  font-family: 'Saira';
+  font-size: .9vw;
+  padding: 3vh;
+  }
+  .card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+  }
+  .card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+  }
+ 
