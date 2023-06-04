@@ -1,0 +1,29 @@
+/*links*/
+a:hover{
+    color:  #484848;
+    text-decoration:none;
+  }
+  a{
+    text-decoration:none;
+  }
+ /*quitar margenes del header*/
+  .row{
+    margin: 0px;
+}
+/*darle color a los headers*/
+#nav{
+    margin: 0px;
+    background-color: #787878;
+}
+#headerblanco{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    color:black;
+}
+#headergris{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    object-fit: cover;
+    object-position: center right;
+}

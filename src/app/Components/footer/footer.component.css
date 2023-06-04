@@ -1,0 +1,41 @@
+.row{
+  margin: 0px;
+  height: 139px;
+}
+
+/*contacto*/
+
+
+.icons{
+  height: 40px;
+  width: 40px;
+  padding: 5px;/*dentro de la caja*/
+  margin: 5px 10px;/*fuera de la caja*/
+  margin-bottom: 20px;
+}
+.icons-link{
+  height: 40px;
+  width: 40px;
+  padding: 5px 0px;/*dentro de la caja*/
+  margin: 5px 5px;/*fuera de la caja*/
+}
+.test{
+  border: 1px;
+  border-style: solid;
+  border-color: aqua;
+}
+  
+.footer{
+  align-items: center;
+  background-color: #787878;
+  
+}
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      

@@ -1,0 +1,10 @@
+  footer {
+    bottom: 0%;
+    width: 100%;
+    margin-top: auto;
+  }
+      #body{
+        display: felx;
+        flex-direction: column;
+        min-height: 100vh;;
+      }
