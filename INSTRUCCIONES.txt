@@ -1,0 +1,2 @@
+Abrir una terminal e ingresar el siguiente comando:
+ng serve

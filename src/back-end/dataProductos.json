@@ -1,14 +1,74 @@
 {
-    "Producto": {
+    "Producto-1": {
     "id": "productoid",
-    "nomProduct":"Calcetines",
+    "nomProduct":"El Rey Rojo",
       "prdID" : "on",
-      "prdIMG" : "prdIMG",
-      "fotopr1" : "closeup",
-      "fotopr2" : "mckup1",
-      "fotopr3" : "color variation",
-      "prdinfo":"Ilustración del personaje principal de la serie One Piece, el cual es el pirata Luffy. Esta ilustración fue creada el 2023 en el porgrama de ilustración ClipStudio Paint por medio de una tableta digiatal, Huion kambas, con la finalidad de mostrar aprecio y agradecimiento al artista por darnos a conocr esta magnifiaca obra.",
-      "colores":["color1","color2","color3","color4"],
-      "qty" : "2"
+      "prdIMG" : "1.jpg",
+      "prdinfo":"Un dibujo de Luffy",
+      "qty" : "1"
+    },
+    "Producto-2": {
+      "id": "productoid",
+      "nomProduct":"El agtista",
+        "prdID" : "on",
+        "prdIMG" : "2.jpg",
+        "prdinfo":"Un dibujo de Twitter",
+        "qty" : "1"
+    },
+    "Producto-3": {
+      "id": "productoid",
+      "nomProduct":"Dinsaurio llorando",
+        "prdID" : "on",
+        "prdIMG" : "3.jpg",
+        "prdinfo":"Fotografía de dinosaurio",
+        "qty" : "1"
+    },
+    "Producto-4": {
+      "id": "productoid",
+      "nomProduct":"Aldo_Geo",
+        "prdID" : "on",
+        "prdIMG" : "4.jpg",
+        "prdinfo":"SquidCraftGames",
+        "qty" : "1"
+    },
+    "Producto-5": {
+      "id": "productoid",
+      "nomProduct":"Streamers road",
+        "prdID" : "on",
+        "prdIMG" : "5.jpg",
+        "prdinfo":"Proyecto 176",
+        "qty" : "1"
+    },
+    "Producto-6": {
+      "id": "productoid",
+      "nomProduct":"Alex Quackity",
+        "prdID" : "on",
+        "prdIMG" : "6.jpg",
+        "prdinfo":"Mi marido",
+        "qty" : "1"
+    },
+    "Producto-7": {
+      "id": "productoid",
+      "nomProduct":"Torsos",
+        "prdID" : "on",
+        "prdIMG" : "7.jpg",
+        "prdinfo":"Sketcheando",
+        "qty" : "1"
+    },
+    "Producto-8": {
+      "id": "productoid",
+      "nomProduct":"Manos-1",
+        "prdID" : "on",
+        "prdIMG" : "8.jpg",
+        "prdinfo":"Sketcheando",
+        "qty" : "1"
+    },
+    "Producto-9": {
+      "id": "productoid",
+      "nomProduct":"Manos-2",
+        "prdID" : "on",
+        "prdIMG" : "9.jpg",
+        "prdinfo":"Sketcheando",
+        "qty" : "1"
     }
 }

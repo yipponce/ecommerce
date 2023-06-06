@@ -23,7 +23,7 @@ router.get('/:id', (req, res)=> {
 
 router.post('/', (req, res)=> {
     const{nomProduct, prdID, prdIMG, fotopr1, fotopr2}=req.body;
-    if(nomProduct&&prdID&&prdIMG&&fotopr1&&fotopr2&&fotopr2&&fotopr3&&prdinfo&&colores&&qty){
+    if(nomProduct&&prdID&&prdIMG&&prdinfo&&qty){
         const id = productos.length +1;
         const newProduct = {...req.body, id};
         productos.push(newProduct); //sistemas optativos, sirve para meter cosas pop sacar

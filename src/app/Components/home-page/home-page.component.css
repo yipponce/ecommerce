@@ -198,7 +198,9 @@ h1{
 #nosotros{
     width: 50%;
     height: 576px;
-    padding:  12vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    
     
 }
 #about-t{
@@ -214,9 +216,6 @@ h1{
 }
 /**/
 
-#imagencita img{
-    width: 80vh;
-}
 
 /*ESTILOS*/
 .estils{
@@ -230,7 +229,7 @@ h1{
 }
 #estilos{
     margin-bottom: 52px;
-    font-size:35px;
+    font-size: 2vw;
     font-family: 'Saira', sans-serif;
     letter-spacing: .7em;
     word-spacing: 0.25em;
@@ -274,4 +273,7 @@ h1{
 .card :hover{
     transform: scale(1.15);
     transition :all 300ms;
+}
+#je{
+    margin-top: 20vh;
 }

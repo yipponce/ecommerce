@@ -2,20 +2,6 @@
   margin-top: 191px;
  }
   /*Columnas*/
-  .Columnas img{
-    width: 25vw;
-    height: 25vw;
-    padding-left: 0px;
-    padding-right: 40px;
-    margin-bottom: 35px;
-  }
-  .aaa{
-    size-adjust: 100vh;
-  }
-  #tarjetitas{
-    padding:20px;
-    align-items:center;
-  }
   #estilos{
     color:#fff;
     font-family: 'Saira';
@@ -36,11 +22,15 @@
     margin-bottom: 127px;
   }
   /*-------------------------TARJETAS-------------------------*/
+  #tarjetitas{
+    width: 20vh;
+    width: 25vh;
+  }
   .card {
     position: relative;
-    width: 25vw;
-    height: 25vw;
-    margin: 90px;
+    width: 20vw;
+    height: 20vw;
+    margin-bottom: 12vh;
     top: 20px;
     column-count: 3;
   }
@@ -49,27 +39,27 @@
   }
   .card .face {
     position: absolute;
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     backface-visibility:hidden;
     border-radius: 10px;
     overflow: hidden;
-    transition: .5s;
+    transition: .8s;
   } 
   .card .front {
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 0 5px 10px #000;
   }
   .card .front img {
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     object-fit: cover;
   }  
   .card.front h3{
     position: absolute;
     bottom: 0;
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     color: #fff;
     background: rgba(0, 0, 0, 0.4);
     text-align: center;
@@ -78,7 +68,7 @@
   .card .back{
     transform: perspective(600px) rotateY(180deg);
     background: rgba(3, 35, 54);
-    padding: 15px;
+    
     color: #f3f3f3;
     display: flex;
     flex-direction: column;
@@ -96,7 +86,7 @@
   font-family: 'Saira';
   }
   .card .back h3{
-  font-size: 4vw;
+  font-size: 3.1vw;
   font-family: 'Saira';
  
   }
@@ -112,4 +102,6 @@
   .card:hover .back{
     transform: perspective(600px) rotateY(360deg);
   }
- 
+ a{
+  color: white;
+ }
